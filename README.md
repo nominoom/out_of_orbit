@@ -4,26 +4,26 @@ The official website for **Out of Orbit**, the cosmic late-night talk show broad
 
 ![Out of Orbit](assets/logo.png)
 
-## 🌌 Features
-- **Live Broadcast Command Center**: Embedded Twitch stream + WMTU 91.9 FM radio stream with interactive audio visualizer.
-- **Podcast & Episode Vault**: Searchable transmission logs and playback.
-- **Cosmic Studio Soundboard**: 8 tactile synthesizer pads (Web Audio API) with keyboard hotkeys (`1`–`8`).
-- **Real-Time Countdown**: Live timer counting down to the next Friday 8:00 PM EDT transmission.
-- **Listener Transmission Beam**: On-air hotline form for audience topics and questions.
-- **Social Translink**: Connected to Twitch, [wmtu.fm](https://wmtu.fm), Instagram, Twitter/X, Discord, and SoundCloud.
+## 🌌 Broadcast Schedule
+- **Live Air Time**: Fridays, **10:00 PM – 12:00 AM EST**
+- **Terrestrial Radio**: WMTU 91.9 FM (Keweenaw & Western Upper Peninsula)
+- **Live Video Stream**: [twitch.tv/wmtu_live](https://twitch.tv/wmtu_live)
+- **Station Website**: [wmtu.fm](https://wmtu.fm)
+
+## 📡 Features
+- **Live Broadcast Command Center**: Integrated Twitch live stream with toggleable chat & WMTU 91.9 FM live radio audio stream with animated spectrum visualizer.
+- **Mission & About Section**: Overview of the show's format, topics, and WMTU station lineage.
+- **Dynamic Launch Countdown**: Real-time timer counting down to the next Friday 10:00 PM EST live transmission.
+- **Translink & Social Grid**: Quick links to Twitch, WMTU Official, Instagram, Twitter/X, SoundCloud, and Facebook.
 
 ## 🛠️ Tech Stack
-- **Structure & Semantics**: HTML5 with rich SEO metadata & OpenGraph cards
-- **Styling**: Vanilla CSS3 with responsive glassmorphism & neon synthwave aesthetics
-- **Interactive FX**: HTML5 Canvas (Starfield & audio spectrum), Web Audio API (Procedural sound synthesis)
+- **HTML5**: Semantic layout with SEO metadata & OpenGraph social tags
+- **Vanilla CSS3**: Clean, refined space aesthetics with subtle neon accents & responsive glassmorphism
+- **JavaScript**: Dynamic HTML5 Canvas starfield, spectrum visualizer, and countdown timer
 
 ## 🚀 Running Locally
-Simply open `index.html` in your browser, or start a local server:
+Open `index.html` in your browser, or run a local server:
 
 ```bash
-# Using Python
 python -m http.server 3000
-
-# Or using Node
-npx serve .
 ```
