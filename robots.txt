@@ -1,0 +1,6 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+# Sitemap (if generated)
+# Sitemap: https://nominoom.github.io/out_of_orbit/sitemap.xml
