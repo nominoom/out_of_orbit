@@ -345,6 +345,14 @@ body {
   width: fit-content;
 }
 
+.host-pill-tag {
+  font-family: var(--font-headline);
+  font-weight: 700;
+  font-size: 0.82rem;
+  color: var(--neon-red);
+  letter-spacing: 0.5px;
+}
+
 .station-freq {
   font-family: var(--font-display);
   font-weight: 700;
